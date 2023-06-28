@@ -1,0 +1,31 @@
+body {
+    font-size: 24px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+td {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+}
+
+td:hover {
+    background-color: lightgrey;
+    border: 2px solid black;
+    padding: 9px;
+    cursor: pointer;
+}
+
+td.result {
+    background-color: lightgrey;
+    font-size: 30px;
+    line-height: 34px;
+    text-align: left;
+    width: 300px;
+    height: 34px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator Budanov</title>
+	<link type="text/css" href="style.css" rel="stylesheet">
+	<script type="application/javascript" src="calc.js"></script>
+</head>
+<body>
+<header>
+	<h1>Calculator</h1>
+</header>
+<main>
+	<table>
+		<tr>
+			<td colspan="4" class="result" id="result">
+
+			</td>
+		</tr>
+		<tr>
+			<td class="digit" onclick="enter_data(1)">1</td>
+			<td class="digit" onclick="enter_data(2)">2</td>
+			<td class="digit" onclick="enter_data(3)">3</td>
+			<td class="action" onclick="enter_data('+')">+</td>
+		</tr>
+		<tr>
+			<td class="digit" onclick="enter_data(4)">4</td>
+			<td class="digit" onclick="enter_data(5)">5</td>
+			<td class="digit" onclick="enter_data(6)">6</td>
+			<td class="action" onclick="enter_data('-')">-</td>
+		</tr>
+		<tr>
+			<td class="digit" onclick="enter_data(7)">7</td>
+			<td class="digit" onclick="enter_data(8)">8</td>
+			<td class="digit" onclick="enter_data(9)">9</td>
+			<td class="action" onclick="enter_data('*')">*</td>
+		</tr>
+		<tr>
+			<td class="digit" onclick="clear_data()">C</td>
+			<td class="digit" onclick="enter_data(0)">0</td>
+			<td class="get_result" onclick="calculate()">=</td>
+			<td class="action" onclick="enter_data('/')">/</td>
+		</tr>
+	</table>
+</main>
+</body>
+</html>
