@@ -12,7 +12,7 @@ function  clear_data() {
 
 }
 
-// I want to calculate all result string, maybe its bad idea but look eval()
+// I want to calculate all in a string, that's bad idea, but I want to do it with  eval()
 function calculate() {
 
 }
